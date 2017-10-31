@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="EActionbarStyles" format="reference" />
+
+    <declare-styleable name="EActionbar">
+        <attr name="eActionbarTitleTextAppearance" format="reference" />
+        <attr name="titleColor" format="reference|color" />
+        <attr name="titleTextSize" format="dimension" />
+        <attr name="subTitleColor" format="reference|color" />
+        <attr name="subTitleSize" format="dimension" />
+        <attr name="menuTextColor" format="reference|color" />
+        <attr name="menuTextSize" format="dimension" />
+        <attr name="popupBackground" format="reference|color" />
+        <attr name="popupTextColor" format="reference|color" />
+        <attr name="popupTextSize" format="dimension" />
+        <attr name="eActionbarBackground" format="reference|color" />
+        <attr name="menuBackIcon" format="reference" />
+        <attr name="menuMoreIconLeft" format="reference" />
+        <attr name="menuMoreIconRight" format="reference" />
+        <attr name="popupPointIcon" format="reference" />
+        <attr name="popupListDivider" format="reference|color"></attr>
+    </declare-styleable>
+
+</resources>

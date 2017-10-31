@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ctrl_actionbar_ok">OK</string>
+    <string name="ctrl_actionbar_cancel">Cancel</string>
+    <string name="ctrl_actionbar_select_all">All</string>
+    <string name="ctrl_actionbar_select_none">None</string>
+    <string name="ctrl_actionbar_select_count">%d item(s)</string>
+</resources>

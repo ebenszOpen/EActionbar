@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/layoutDropDown"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="?android:attr/selectableItemBackgroundBorderless"
+        android:clickable="true">
+
+        <TextView
+            android:id="@+id/viewContent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:paddingLeft="8dp"
+            android:paddingRight="16dp"
+            android:shadowColor="#060000"
+            android:shadowDx="4"
+            android:shadowDy="4"
+            android:shadowRadius="1"
+            android:singleLine="true"
+            android:text="@string/ctrl_actionbar_select_count"
+            android:textColor="@color/ctrl_actionbar_color_item_text_selector"
+            android:textSize="@dimen/ctrl_actionbar_popuptext_size"/>
+
+        <ImageView
+            android:id="@+id/viewIndicator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/viewContent"
+            android:layout_alignRight="@id/viewContent"
+            android:layout_gravity="center_vertical"
+            android:layout_marginBottom="2dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/ctrl_actionbar_menu_dropdown_sel"/>
+
+    </RelativeLayout>
+</RelativeLayout>

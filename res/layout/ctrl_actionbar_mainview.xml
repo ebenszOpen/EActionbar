@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ctrl_actionbar_mainview_root"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/ctrl_actionbar_default_height"
+    android:layout_alignParentTop="true"
+    android:paddingTop="@dimen/ctrl_actionbar_statusbar_height" >
+
+    <LinearLayout
+        android:id="@+id/rootLeftMenus"
+        android:layout_width="wrap_content"
+        android:layout_height="56dp"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="6dp"
+        android:paddingRight="6dp" />
+
+    <LinearLayout
+        android:id="@+id/rootRightMenus"
+        android:layout_width="wrap_content"
+        android:layout_height="56dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="6dp"
+        android:paddingRight="6dp" />
+
+</RelativeLayout>

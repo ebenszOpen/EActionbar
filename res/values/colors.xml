@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ctrl_actionbar_tab_transparent_color">#00000000</color>
+    <color name="ctrl_actionbar_title_color">#F2F8FF</color>
+    <color name="ctrl_actionbar_title_secure_color1">#978773</color>
+    <color name="ctrl_actionbar_title_secure_color2">#ffffff</color>
+    <color name="ctrl_actionbar_menu_color_light">#1C3345</color>
+    <color name="ctrl_actionbar_popup_list_divider">#3e3f3e</color>
+    <color name="ctrl_actionbar_popup_list_divider_light">#E1E3E7</color>
+    <color name="ctrl_actionbar_title_shadow_color1">#C8000000</color>
+    <color name="ctrl_actionbar_tab_private_color1">#2d1a12</color>
+    <color name="ctrl_actionbar_tab_private_color2">#f2e0ce</color>
+    <color name="ctrl_actionbar_tab_normal_color1">#1e2e3e</color>
+    <color name="ctrl_actionbar_tab_normal_color2">#f2f8ff</color>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ebensz.templates.ActionBarView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    style="@style/Actionbar_default_style" >
+
+    <include
+        android:id="@+id/ctrl_actionbar_main_root"
+        layout="@layout/ctrl_actionbar_mainview" />
+
+    <include
+        android:id="@+id/ctrl_actionbar_select_root"
+        layout="@layout/ctrl_actionbar_mainview"
+        android:visibility="gone" />
+
+</com.ebensz.templates.ActionBarView>

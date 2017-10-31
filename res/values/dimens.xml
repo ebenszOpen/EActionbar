@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="ctrl_actionbar_menu_size">38dip</dimen>
+    <dimen name="ctrl_actionbar_menu_margin_interval">7dip</dimen>
+    <dimen name="ctrl_actionbar_menu_margin_terminal">5dip</dimen>
+    <dimen name="ctrl_actionbar_menu_margin_top">10dip</dimen>
+    <dimen name="ctrl_actionbar_icon_title_margin_top">12dip</dimen>
+    <dimen name="ctrl_actionbar_default_height">72dip</dimen>
+    <dimen name="ctrl_actionbar_statusbar_height">24dip</dimen>
+    <dimen name="ctrl_actionbar_title_size">20dp</dimen>
+    <dimen name="ctrl_actionbar_subtitle_size">12dp</dimen>
+    <dimen name="ctrl_actionbar_title_size_multi">16dp</dimen>
+    <dimen name="ctrl_actionbar_subtitle_size_multi">12dp</dimen>
+    <dimen name="ctrl_actionbar_menu_text_size">16dp</dimen>
+    <dimen name="ctrl_actionbar_popuptext_size">18dp</dimen>
+</resources>

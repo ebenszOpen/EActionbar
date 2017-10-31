@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Actionbar_default_style">
+        <item name="eActionbarTitleTextAppearance">@style/TitleTextAppearance</item>
+        <item name="titleColor">@color/std_actionbar_title</item>
+        <item name="titleTextSize">@dimen/ctrl_actionbar_title_size</item>
+        <item name="subTitleColor">@color/std_actionbar_title</item>
+        <item name="subTitleSize">@dimen/ctrl_actionbar_subtitle_size</item>
+        <item name="menuTextColor">@color/ctrl_actionbar_menutext</item>
+        <item name="menuTextSize">@dimen/ctrl_actionbar_menu_text_size</item>
+        <item name="popupBackground">@drawable/ctrl_actionbar_more_bg</item>
+        <item name="popupTextColor">@color/ctrl_actionbar_color_item_text_selector</item>
+        <item name="popupTextSize">@dimen/ctrl_actionbar_popuptext_size</item>
+        <item name="eActionbarBackground">@drawable/std_actionbar_bg_selector</item>
+        <item name="menuBackIcon">@drawable/ctrl_actionbar_back</item>
+        <item name="menuMoreIconLeft">@drawable/std_icon_more_left_sel</item>
+        <item name="menuMoreIconRight">@drawable/std_icon_more_v_sel</item>
+        <item name="popupPointIcon">@drawable/ctrl_actionbar_more_bg_point</item>
+        <item name="popupListDivider">@color/ctrl_actionbar_popup_list_divider</item>
+    </style>
+
+    <style name="TitleTextAppearance" parent="@android:style/TextAppearance.DeviceDefault.Medium">
+    </style>
+
+    <style name="Actionbar_style_light">
+        <item name="eActionbarTitleTextAppearance">@android:style/TextAppearance.Medium</item>
+        <item name="titleColor">@color/std_actionbar_title_light</item>
+        <item name="titleTextSize">@dimen/ctrl_actionbar_title_size</item>
+        <item name="subTitleColor">@color/std_actionbar_title_light</item>
+        <item name="subTitleSize">@dimen/ctrl_actionbar_subtitle_size</item>
+        <item name="menuTextColor">@color/std_actionbar_title_light</item>
+        <item name="menuTextSize">@dimen/ctrl_actionbar_menu_text_size</item>
+        <item name="popupBackground">@color/std_white2</item>
+        <item name="popupTextColor">@color/ctrl_actionbar_menu_color_light</item>
+        <item name="popupTextSize">@dimen/ctrl_actionbar_popuptext_size</item>
+        <item name="eActionbarBackground">@color/std_white2</item>
+        <item name="menuBackIcon">@drawable/ctrl_actionbar_back_normal_light</item>
+        <item name="menuMoreIconLeft">@drawable/std_icon_more_left_sel</item>
+        <item name="menuMoreIconRight">@drawable/std_icon_more_light</item>
+        <item name="popupPointIcon">@drawable/ctrl_actionbar_more_bg_point</item>
+        <item name="popupListDivider">@color/ctrl_actionbar_popup_list_divider_light</item>
+    </style>
+
+</resources>

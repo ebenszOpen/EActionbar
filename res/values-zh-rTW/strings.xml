@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ctrl_actionbar_ok">確定</string>
+    <string name="ctrl_actionbar_cancel">取消</string>
+    <string name="ctrl_actionbar_select_all">全選</string>
+    <string name="ctrl_actionbar_select_none">取消全選</string>
+    <string name="ctrl_actionbar_select_count">已選中%d項</string>
+</resources>
